@@ -1,0 +1,23 @@
+/* Общие настройки страницы */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    /* Плавная смена цвета фона */
+    transition: background-color 1s ease;
+}
+
+/* Центрируем фразу по вертикали и горизонтали */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% высоты экрана */
+}
+
+/* Стили для самой фразы */
+#phrase {
+    font-size: 2em;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
